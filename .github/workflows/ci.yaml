@@ -1,6 +1,11 @@
 # .github/workflows/ci_cd.yml
-
 name: CI Pipeline
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 
 on:
   push:
